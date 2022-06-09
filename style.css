@@ -1,0 +1,42 @@
+.map {
+        margin-top:0.88vh;
+        margin-right:3vw;
+        float:right;
+        background-image: url('https://www.photos-public-domain.com/wp-content/uploads/2012/05/black-brick-wall-texture.jpg');
+        background-size: 500px;
+        height: 85vh;
+        width: 70vw;
+      }
+h2 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: center;
+   font-size: 46px;
+  color: white;
+  letter-spacing: 1px;
+}
+
+body{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7));
+  background-repeat: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 500px){
+  .map{
+    height: 75vh;
+    width: 100%;
+  }
+  
+  h2{
+    font-size: 30px;
+  }
+}
+
+#informationDiv{
+  padding:2vw;
+  background-color:white;
+  width:19vw;
+  margin:2vw;
+  height:80vh;
+}
